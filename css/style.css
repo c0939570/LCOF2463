@@ -7,7 +7,7 @@
    font-family: 'Roboto', sans-serif;
 }
 
-body, ul, li{
+body, ul, li, header, footer, main{
     margin: 0;
     padding: 0;
 }
@@ -16,19 +16,22 @@ body, ul, li{
 
 body{
     background-color: black;
+    height: 100%;
+
 }
 
 header{
 
     width: 100%;
     height: 60vh;
+    overflow: hidden;
     
 }
 
 header img{
-    width: 178vh;
+    width: 177vh;
     height: 60vh;
-    overflow: hidden;
+    
 }
 
 
@@ -50,6 +53,22 @@ nav li a{
     
 
 }
+
+
+/* setting the main content*/
+
+.content{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    
+}
+.content h1{
+
+    padding: 30px;
+}
 /*
 nav li a:hover{
        transition: 1s;
@@ -57,4 +76,31 @@ nav li a:hover{
 } */
 
 
+/* setting the footer portion of website*/
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(255, 225, 0, 0.938);
+    padding-top: 7px;
+    clear: both;
+}
+
+footer p{
+
+    font-weight: 500;
+    font-size: .7em;
+    color: black;
+    padding-top: 2px;
+    
+
+}
+
+footer p a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
 
