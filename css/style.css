@@ -1,13 +1,13 @@
 /* resetting the default*/
 
 *{
-   margin:0 ;
+   margin: 0 ;
    padding: 0;
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
 }
 
-body, ul, li, header, footer, main{
+div,nav, body, footer, ul, main, header, li, img{
     margin: 0;
     padding: 0;
 }
@@ -15,35 +15,41 @@ body, ul, li, header, footer, main{
 /* style setting to nav bar*/
 
 body{
-    background-color: black;
+
     height: 100%;
 
 }
 
 header{
 
+    height: auto;
     width: 100%;
-    height: 60vh;
-    overflow: hidden;
-    
 }
 
 header img{
-    width: 177vh;
-    height: 60vh;
-    
+    display: block;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
+.nav-list{
 
-nav ul{
+    background-color: black;
+    height: 50px;
+
+     
+}
+
+.nav-list ul{
     display: flex;
     list-style: none;
-    align-items: center;
+    text-align: center;
     justify-content: space-evenly;
-    margin: 30px 30px;
+    padding-top: 10px;
 }
 
-nav li a{
+.nav-list li a{
 
     text-decoration: none;
     color: white;
@@ -54,20 +60,43 @@ nav li a{
 
 }
 
+/*hover effect setting*/
+
+.nav-list li a:hover{
+
+    color: rgba(255, 225, 0, 0.938);
+    transition: 1s;
+}
+
 
 /* setting the main content*/
 
 .content{
-    display: flex;
+    display:block;
     align-items: center;
+    padding-top: 30px;
     width: 100%;
     height: 50vh;
     background-color: white;
     
 }
 .content h1{
+    margin-top: 30px;
+    padding: 30px 30px 10px;
+    font-size: 3em;
 
-    padding: 30px;
+}
+
+.content h2{
+     font-size: 2em;
+     padding: 5px 30px;
+}
+
+.content p{
+    font-weight: 500;
+    max-width: 700px;
+    padding: 30px 30px 10px;
+    line-height: 25px;
 }
 /*
 nav li a:hover{
@@ -78,26 +107,26 @@ nav li a:hover{
 
 /* setting the footer portion of website*/
 
-footer{
+.foot{
+    
     text-align: center;
     width: 100%;
-    height: 45px;
     background-color: rgba(255, 225, 0, 0.938);
     padding-top: 7px;
     clear: both;
 }
 
-footer p{
+.foot p{
 
+    height: 20px;
     font-weight: 500;
     font-size: .7em;
     color: black;
-    padding-top: 2px;
     
+    }
 
-}
+.foot p a{
 
-footer p a{
     text-decoration: none;
     color: black;
     cursor: pointer;
