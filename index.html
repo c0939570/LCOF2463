@@ -1,57 +1,98 @@
 <!DOCTYPE html>
-<!--
-Student name : Ashish varghese
-File : index.html
-Date: 2024/09/28-->
+<!-- This website template was created by: Ashish Varghese -->
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<title>Forward Fitness Club</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Popcorn Makers: Home </title>
-
-   
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
 </head>
 <body>
-    <header>
 
-        <img src="images/main-img.jpg" alt="image of popcorn">
+	<div id="container">
 
-    </header>
-
-        <nav> 
-            <div class="nav-list">
-            <ul>
-               <li><a href="index.html">HOME</a></li>
-               <li><a href="about.html">ABOUT</a></li>
-               <li><a href="shop.html">SHOP</a></li>
-               <li><a href="feature.html">FEATURE</a></li>
-               <li> <a href="recipes.html">RECIPES</a></li>
-               <li> <a href="contact.html">CONTACT</a></li>
-           </ul>
+		<!-- Use the header area for the website name or logo -->
+		<header>
+			<a href="index.html"><img src="images/logo.png" alt="logo of the company"></a>
+		</header>
+		
+		<!-- Use the nav area to add hyperlinks to other pages within the website -->
+		<nav>
+			<ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About Us</a></li> 
+                <li><a href="training.html">Training</a></li> 
+                <li><a href="special.html">Specials</a></li> 
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+		</nav>
+        
+        <!-- Hero Image -->
+        <div id="hero" class="tablet-desktop">
+            <img src="images/main-img.jpg" alt="picture of the popcorn cup">
         </div>
-       </nav> 
-
-
-    <!-- Use the main area to add the main content to the webpage -->
-     
-    <main>
-        <div class="content">
-            <img src="images/popcorn_machine.jpg" alt="popcorn making in machine">
-            <h1><span style="color: red;">Welcome</span> to the website</h1>
-            <h2>Popcorn  Lovers Unite <span style="color: red;">!</span></h2>
-           <p>Welcome to your ultimate destination for all things popcorn!
-              Explore our range of popcorn makers and accessories designed 
-              to bring the theater experience right into your kitchen. 
-              <span style="color: rgb(193, 45, 5);">Get ready to create your favorite flavors!</span></p>
-        </div>
-    </main>
-
-    <footer>
-        <div class="foot">
-        <p>&copy; Copyright 2021. All Rights Reserved.</p>
-        <p><a href="mailto:ashishvarghese33@gmail.com">ashishvarghese33@gmail.com</a></p>
-        </div>
-    </footer>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+            
+            <div class="mobile">
+                <h1><span style="color: red;">Welcome</span> to the website</h1>
+                <h2>Popcorn  Lovers Unite <span style="color: red;">!</span></h2>
+                <p>Welcome to your ultimate destination for all things popcorn!
+                    Explore our range of popcorn makers and accessories designed 
+                    to bring the theater experience right into your kitchen.
+                 </p> 
+                
+                <h3>Book your Favourite Popcorn Machine Now!</h3>
+                <p>Contact us to book</p>
+                <p class="tel-link"><a href="tel:343775466">(343) 777-5466</a></p>
+                
+                 
+            
+            </div>
+            
+            <div class="tablet-desktop">
+                <h1><span style="color: red;">Welcome</span> to the website</h1>
+                <h2>Popcorn  Lovers Unite <span style="color: red;">!</span></h2>
+                <p> Welcome to your ultimate destination for all things popcorn!
+                </p>
+                <p>Explore our range of popcorn makers and accessories designed 
+                    to bring the theater experience right into your kitchen.</p> 
+            </div>
+            <div class="grid">
+                
+                <figure class="frame">
+                        <a href="training.html"><img src="images/training.png" alt="people around popcorn machine"></a>
+                        <figcaption class="pic-text"> Training</figcaption>
+                </figure>
+                
+                <figure class="frame">
+                        <a href="special.html"><img src="images/special.png" alt="popcorn machine"></a>
+                        <figcaption class="pic-text">Our Product</figcaption>
+                </figure>
+                
+                <figure class="frame">
+                        <a href="contact.html"><img src="images/contact.png" alt="contact form image"></a>
+                        <figcaption class="pic-text">Chat With Us</figcaption>
+                </figure>
+            
+            </div> 
+             
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			<p>&copy; Copyright 2021. All Rights Reserved.</p>
+			<p><a href="mailto:c0939570@mylambton.ca">c0939570@mylambton.ca</a><br><br>Ashish Varghese</p>
+		</footer>
+	
+	</div>
+	
 </body>
 </html>
