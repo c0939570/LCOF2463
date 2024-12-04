@@ -321,6 +321,7 @@ footer p a {
     #reasons {
         background-color:rgb(255, 225, 0);
         padding: 1% 2%;
+        border-radius: 4%;
     }
 
     #reasons dt {
@@ -328,7 +329,7 @@ footer p a {
     }
 
     #reasons dd {
-        padding: 0.5% 1% 2% 0;
+        padding: 0.5% 1% 2% 2%;
     } 
     
     .tel-num {
@@ -438,11 +439,7 @@ footer p a {
         box-shadow: 8px 8px 10px #808080;
     }
     
-    #about, #story, #guarantee {
-        width: 29%;
-        float: left;
-        margin: 0 2%;
-    }
+   
 
     #reasons {
         clear: left;
