@@ -12,7 +12,7 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 
 /* Style rules for body and images */
 body {
-	background-color: #000000;
+	background-color: red;
 }
 html{
     scroll-behavior: smooth;
@@ -32,7 +32,7 @@ img {
 /* Style rule for header */
 header {
     top: 0;
-    background-color: #000;
+    background-color:red;
     height: 140px;
 }
  
@@ -51,7 +51,7 @@ nav ul a::after{
     content: '';
     width: 0;
     height: 3px;
-    background:  red;
+    background:  black;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -200,6 +200,7 @@ article ul {
     text-decoration: none;
 }
 
+
 .map {
     border: 2px solid #000;
     width: 95%;
@@ -309,7 +310,7 @@ footer p a {
         font-style: italic;
         font-weight: bold;
         padding: 2%;
-        background-color:rgb(213, 6, 6);
+        background-color:#ffc400;
         box-shadow: 5px 5px 8px #000;
     
         border-radius: 0 15px; 
@@ -375,6 +376,7 @@ footer p a {
     form {
         width: 70%;
         margin: 0 auto;
+        background-color: white;
     }
     
 }
@@ -409,8 +411,8 @@ footer p a {
     }
     
     nav li a:hover {
-        color: #ffc400;
-        transition: 2s
+        color: black;
+        transition: 1s
     }
     
     /* Desktop Viewport: Style Rules for main content */
@@ -455,10 +457,12 @@ footer p a {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
+        background-color: white;
     }
     
     .btn {
         grid-column: 1 / span 3;
+         
     }
     
 }
