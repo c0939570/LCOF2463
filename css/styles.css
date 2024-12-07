@@ -114,8 +114,25 @@ article ul {
     margin-left: 10%; 
 }
 
- 
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+th, td{
+    border: 1px solid black;
+}
+th {
+    background-color: #ffc400;
+    color: black;
+   
+}
 
+caption{
+    font-weight: bold;
+    font-size: 1.5em;
+}
 .tel-link {
     background-color:  #ffc400;
     padding: 2%;
@@ -351,18 +368,19 @@ footer p a {
     }
     
     th, td {
-        border: 1px solid #000;
-        padding: 2%;
+        border: 1px solid black;
+        padding: 5px;
+        
     }
     
     th {
-        background-color: #000;
-        color: #fff;
+        background-color: #ffc400;
+        color: black;
         font-size: 1.15em;
     }
     
-    tr:nth-child(odd) {
-        background-color: #ccc;
+    footer{
+        align-items: center;
     }
     
     /* Tablet Viewport: Style rule for form element */
