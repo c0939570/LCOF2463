@@ -74,6 +74,7 @@ nav li a {
     text-decoration: none;
 }
 
+ 
 /* Show mobile class, hide tablet-desktop class */
 .mobile {
     display: block;
@@ -195,6 +196,7 @@ article ul {
     margin-top: 2%;
     background-color: #f2f2f2;
     padding: 2%;
+   
 }
 
 #form h2 {
@@ -281,11 +283,17 @@ footer p a {
         display: grid;
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
+        
+    }
+    .grid img{
+        border-radius: 50%;
     }
        
     .pic-text {
         font-size: 1em;  
         padding: 10px;
+        background-color: #ffc400;
+        color:black;
     } 
     
     aside {
@@ -326,6 +334,7 @@ footer p a {
         width: 600px;
         height: 450px;
     }
+    
     
     /* Tablet Viewport: Style rules for table */
     table {
