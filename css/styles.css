@@ -425,24 +425,7 @@ footer p a {
         color: rgb(255, 255, 255);
         transition: 1s
     }
-    nav ul a{
-        position: relative;
-    }
-    nav ul a::after{
-        content: '';
-        width: 0;
-        height: 3px;
-        background:  white;
-        position: absolute;
-        left: 0;
-        bottom: -6px;
-        transition:0.5s ;
-    
-    }
-    nav ul a:hover::after{
-        width: 100%;
-    
-    }
+   
     
     /* Desktop Viewport: Style Rules for main content */
     main {
